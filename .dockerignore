@@ -1,0 +1,9 @@
+build
+.git
+.idea
+cmake-build-*
+*.o
+*.a
+*.so
+*.qm
+coverage_report

@@ -51,5 +51,11 @@ sudo apt install lcov gcovr
 ```bash
 ./scripts/coverage.sh
 ```
+
+## Docker для тестов
+```
+docker build -t airport .
+docker run --rm airport
+```
 ------------------------------------------------------------------------
 
